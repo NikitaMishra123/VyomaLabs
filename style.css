@@ -52,14 +52,37 @@ h3{
 
 .col-2{
     flex-basis: 70%;
-    max-width: 550px;
+    max-width: 600px;
 }
+
+.abt-container{
+    max-width:1080px;
+    margin:0px;
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.row3{
+    
+
+    display: flex;
+    align-items: left;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.offer .col-2{
+
+        flex-basis: 70%;
+        max-width: 300px;
+    
+}
+
 
 
 .btn{
     position: relative;
     bottom: 1px;
-    
     display: inline-block;
     background: #fcfbfa;
     color: rgb(90, 81, 81);
@@ -98,6 +121,7 @@ h6{
     display: flex;
     align-items: center;
     padding: 20px;
+    margin-top: 70px;
     background: #E8F9FB;
 }
 
@@ -134,24 +158,157 @@ nav .hover{
     color: black;
 }
 
-.row2{
+
+
+.small-container{
+    max-width:1080px;
+    margin:auto;
+    padding-left: 35px;
+    padding-right: 20px;
+
+}
+
+.row1{
     display: flex;
-    align-items: left;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
+
+.bidcontainer{
+    position: sticky;
+    max-width:1095;
+    margin:-42px 20px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+div.scrollmenu {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+    font-size: 20px;
+    color: black;
+    overflow: hidden;
+    white-space: nowrap;
+    
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    margin:20px 20px 20px 20px;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+
+
 .col-3{
     flex-basis: 70%;
-    max-width: 300px;
+    max-width: 600px;
 }
 
-.col-3 img{
+.col-2 img{
 
     padding: 50px 0;
-    width: auto;
-    height: auto;
+
 }
+
+h2{
+    line-height: 60px;
+}
+
+.about{
+    display: flex;
+    max-width: 1080px;
+    margin-left: 35px;
+}
+
+.about h2{
+    margin-top: 40px;
+}
+
+.group{
+    
+    margin-right: auto;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 65px;
+}
+
+.group img{
+    height: 129px;
+    width: 129px;
+    padding: 20px;
+    margin-top: 15px;
+    line-height: 0%;
+    margin-left: 130px;
+}
+
+.learn{
+    text-align: center;
+    background: #FFDE9B;
+}
+
+.learn h2{
+    color: #000;
+}
+
+.learn p{
+    color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+.group h1{
+    margin-top: 30px;
+}
+
+.group h2{
+    color: rgb(2, 2, 2);
+    margin-top: 4px;
+    height: 140px;
+    text-align: start;
+    padding-top: 60px;
+}
+
+.rate{
+
+    margin-right: auto;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 65px;
+
+}
+
+
+
+.group h2{
+    color: rgb(2, 2, 2);
+    margin-top: 1px;
+    height: 140px;
+    text-align: start;
+    padding-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -161,8 +318,7 @@ nav .hover{
     max-width: 1300px;
     margin: auto;
     padding-left: 10px;
-    padding-right: 25px;
-}
+ }
 
 .row{
     align-items: left;

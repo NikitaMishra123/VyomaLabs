@@ -267,6 +267,36 @@ h2{
     padding-right: 10px;
 }
 
+.works{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.offer{
+    display: flex;
+    max-width: 1080px;
+    margin-left: 35px;
+}
+
+.offer p{
+    color: #777;
+}
+
+
+.offer .col-5{
+    margin-top: 20px;
+    flex-basis: 70%;
+    max-width: 600px;
+}
+
+.offer .col-6 img{
+    margin-top: 120px;
+    margin-left: 190px;
+}
+
+.offer .col-5 h3{
+    color:#000;
+}
 
 
 .group h1{
@@ -281,16 +311,6 @@ h2{
     padding-top: 60px;
 }
 
-.rate{
-
-    margin-right: auto;
-    width: 150px;
-    margin-left: 50px;
-    margin-top: 65px;
-
-}
-
-
 
 .group h2{
     color: rgb(2, 2, 2);
@@ -298,6 +318,62 @@ h2{
     height: 140px;
     text-align: start;
     padding-top: 60px;
+}
+
+.courses{
+    margin-top: 30px;
+    background: #E8F9FB;
+}
+
+.clk{
+    display: flex;
+    max-width: 1080px;
+    margin-left: 35px;
+}
+
+.courses col-7{
+    margin-left: 50px;
+    background-image: url("coursebk.png");   
+}
+
+.courses col-7 img{
+    margin-top: 70px;
+    line-height: 30px;
+
+}
+
+.courses hr{
+    border:none;
+    background:#b5b5b5;
+    height:1px;
+    margin-top: 28px;
+}
+
+
+
+.courses h3{
+    color:black;
+}
+
+.courses h2{
+    margin-top: 4px;
+}
+
+.courses .col-8{
+    margin-top: 50px;
+}
+
+.courses .col-8 h3{
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.courses .col-8 p{
+    color: black;
+}
+
+.courses .col-8 img{
+    margin-top: 6px;
 }
 
 
